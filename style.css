@@ -1,0 +1,52 @@
+/* General styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Ljusgrå bakgrund */
+    color: #333; /* Mörk textfärg */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #e0f7fa; /* Ljusblå header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: #00796b; /* Mörkare blå när du hovrar */
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Stor div för slogan */
+    background-color: #ffffff; /* Vit bakgrund för tydlig kontrast */
+    color: #00796b; /* Mörkare blå för texten */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-align: center;
+}
